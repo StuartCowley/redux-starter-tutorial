@@ -1,4 +1,4 @@
-# Super basic redux tutorial follow along
+# Super basic vanilla redux tutorial follow along
 
 Follow along for the [Mosh tutorial on Redux](https://www.youtube.com/watch?v=poQXNp9ItL4)
 

@@ -38,25 +38,3 @@ const demoImmutability = () => {
 };
 
 export { demoImmutability };
-
-const exampleStore = [
-  {
-    id: 1,
-    description: "",
-    resolved: false,
-  },
-];
-
-const addBugAction = {
-  type: "bugAdded",
-  payload: {
-    description: "bug description here",
-  },
-};
-
-const removeBugAction = {
-  type: "bugRemoved",
-  payload: {
-    id: 1,
-  },
-};
