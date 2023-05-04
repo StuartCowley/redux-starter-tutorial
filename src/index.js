@@ -10,17 +10,17 @@ import { demoImmutability } from "./ObjectImmutability";
 
 import store from "./store";
 
-import { bugAdded, bugResolved } from "./actions";
+import { todoAdded, todoCompleted } from "./actions";
 
 const unsubscribe = store.subscribe(() => {
   console.log("Store changed: ", store.getState());
 });
 
-store.dispatch(bugAdded("Bug1"));
-store.dispatch(bugAdded("Bug2"));
-store.dispatch(bugAdded("Bug3"));
-store.dispatch(bugAdded("Bug4"));
+store.dispatch(todoAdded("Todo1"));
+store.dispatch(todoAdded("Todo2"));
+store.dispatch(todoAdded("Todo3"));
+store.dispatch(todoAdded("Todo4"));
 
-store.dispatch(bugResolved(2));
+store.dispatch(todoCompleted(2));
 
 console.log(store.getState());

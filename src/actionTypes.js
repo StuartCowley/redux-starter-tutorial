@@ -1,3 +1,3 @@
-export const BUG_ADDED = "bugAdded";
-export const BUG_REMOVED = "bugRemoved";
-export const BUG_RESOLVED = "bugResolved";
+export const TODO_ADDED = "todoAdded";
+export const TODO_REMOVED = "todoRemoved";
+export const TODO_COMPLETED = "todoCompleted";

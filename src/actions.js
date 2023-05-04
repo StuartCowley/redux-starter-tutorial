@@ -1,26 +1,26 @@
 import * as actions from "./actionTypes";
 
-export const bugAdded = (description) => {
+export const todoAdded = (description) => {
   return {
-    type: actions.BUG_ADDED,
+    type: actions.TODO_ADDED,
     payload: {
       description: description,
     },
   };
 };
 
-export const bugRemoved = (id) => {
+export const todoRemoved = (id) => {
   return {
-    type: actions.BUG_REMOVED,
+    type: actions.TODO_REMOVED,
     payload: {
       id: id,
     },
   };
 };
 
-export const bugResolved = (id) => {
+export const todoCompleted = (id) => {
   return {
-    type: actions.BUG_RESOLVED,
+    type: actions.TODO_COMPLETED,
     payload: {
       id: id,
     },
